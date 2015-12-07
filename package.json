@@ -1,6 +1,6 @@
 {
   "name": "blood-donor",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Donors for a blood type.",
   "homepage": "https://github.com/hemanth/blood-donor",
   "author": {
@@ -12,7 +12,7 @@
     "dist"
   ],
   "main": "dist/index.js",
-  "bin" : {
+  "bin": {
     "blood-donor": "dist/cli.js"
   },
   "keywords": [
