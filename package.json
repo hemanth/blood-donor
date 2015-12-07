@@ -1,0 +1,43 @@
+{
+  "name": "blood-donor",
+  "version": "0.0.0",
+  "description": "Donors for a blood type.",
+  "homepage": "https://github.com/hemanth/blood-donor",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "bin" : {
+    "blood-donor": "dist/cli.js"
+  },
+  "keywords": [
+    "blood",
+    "donate",
+    "match",
+    "test"
+  ],
+  "repository": "hemanth/blood-donor",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-babel": "^5.1.0",
+    "del": "^2.0.2",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  }
+}
