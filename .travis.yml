@@ -1,6 +1,4 @@
 language: node_js
 node_js:
-  - v5
+  - stable
   - v4
-  - '0.12'
-  - '0.10'
