@@ -39,5 +39,8 @@
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
+  },
+  "dependencies": {
+    "bloodtype-validator": "0.0.2"
   }
 }
