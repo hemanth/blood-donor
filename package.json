@@ -1,6 +1,6 @@
 {
   "name": "blood-donor",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Donors for a blood type.",
   "homepage": "https://github.com/hemanth/blood-donor",
   "author": {
@@ -24,21 +24,10 @@
   "repository": "hemanth/blood-donor",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.6.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0",
-    "gulp-babel": "^5.1.0",
-    "del": "^2.0.2",
-    "babel-core": "^5.5.0",
-    "isparta": "^3.0.3"
+    "mocha": "^11.7.0"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "mocha --exit test/index.js"
   },
   "dependencies": {
     "bloodtype-validator": "0.0.2"

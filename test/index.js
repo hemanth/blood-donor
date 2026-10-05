@@ -1,5 +1,5 @@
-import assert from 'assert';
-import bloodDonor from '../lib';
+const assert = require("assert");
+const bloodDonor = require("../dist");
 
 describe('blood-donor', function () {
   it('should return the donors for B+ve', function (done) {
